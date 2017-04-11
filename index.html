@@ -1,7 +1,7 @@
 ---
 layout: default
 title: The KSP2Mars Blog
-cover: 'assets/video/coding-bg.mp4'
+cover: 'assets/images/cover1.jpg'
 class: 'home-template'
 navigation: True
 logo: 'assets/images/ksp2marsv1.png'
@@ -12,7 +12,10 @@ current: home
 
 <!-- The big featured header  -->
 <header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+        <!--style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">-->
+        <video autoplay loop>
+            <source src="/assets/video/coding-bg.mp4" type="video/mp4" />
+        </video>
     <nav class="main-nav overlay clearfix">
         {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
         {% if page.navigation %}
