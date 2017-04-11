@@ -7,4 +7,4 @@ logo: 'assets/images/ksp2marsv1.png'
 current: about
 ---
 
-This is the blog for the <a href=https://ksp2mars.org>KSP2Mars</a> project.
+This is the blog for the [KSP2Mars](https://ksp2mars.org) project.
