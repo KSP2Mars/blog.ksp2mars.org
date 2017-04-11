@@ -4,12 +4,11 @@
         <span class="hidden">Close</span>
     </a>
     <ul>
-        <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Home</a></li>
+        <li class="nav-ksphome {% if page.current == 'ksp2-home' %} nav-current{% endif %}" role="presentation"><a href="https://ksp2mars.org">KSP2Mars Homepage</a></li>
+        <li class="nav-home {% if page.current == 'home' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}">Blog Homepage</a></li>
+        <li class="nav-reddit {% if page.current == 'subreddit' %} nav-current{% endif %}" role="presentation"><a href="https://www.reddit.com/r/KSP2Mars">/r/KSP2Mars</a></li>
         <li class="nav-about {% if page.current == 'about' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}about">About</a></li>
-        <li class="nav-fables {% if page.url contains 'fables' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/fables">Fables</a></li>
-        <li class="nav-speeches {% if page.url contains 'speeches' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/speeches">Speeches</a></li>
-        <li class="nav-fiction {% if page.url contains 'fiction' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}tag/fiction">Fiction</a></li>
-        <li class="nav-author {% if page.current == 'author' %} nav-current{% endif %}" role="presentation"><a href="{{ site.baseurl }}author/casper">Author</a></li>
+        <li class="nav-contact {% if page.current == 'contact' %} nav-current{% endif %}" role="presentation"><a href="https://goo.gl/gLIHZf">Contact Us</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
 </div>
